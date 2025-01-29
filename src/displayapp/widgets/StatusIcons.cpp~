@@ -28,7 +28,7 @@ void StatusIcons::Create() {
 
   batteryIcon.Create(container);
 
-  lv_obj_align(container, nullptr, LV_ALIGN_IN_TOP_RIGHT, -8, 213);
+  lv_obj_align(container, nullptr, LV_ALIGN_IN_TOP_RIGHT, 0, 0);
 }
 
 void StatusIcons::Update() {
